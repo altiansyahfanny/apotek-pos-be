@@ -2,7 +2,7 @@
 	"name": "apotek_pos_be",
 	"version": "1.0.0",
 	"description": "BE Apotek POS",
-	"main": "app.js",
+	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "nodemon bin/www",
@@ -13,7 +13,7 @@
 		"migrate:fresh": "npm run migrate:undo && npm run migrate",
 		"seed:fresh": "npm run seed:undo && npm run seed "
 	},
-	"author": "",
+	"author": "Altiansyah Fanny",
 	"license": "ISC",
 	"engines": {
 		"node": "16.x"
