@@ -1,12 +1,13 @@
 {
 	"development": {
-		"username": "root",
-		"password": null,
-		"database": "api_apotek_pos",
-		"host": "127.0.0.1",
-		"dialect": "mysql",
+		"username": "postgres",
+		"password": "4fCHPyXKCRH44zvY",
+		"database": "postgres",
+		"host": "db.zolbdhhlsadclodnydzb.supabase.co",
+		"dialect": "postgres",
 		"logging": true,
-		"timezone": "+07:00"
+		"timezone": "+07:00",
+		"port": 5432
 	},
 	"test": {
 		"username": "root",

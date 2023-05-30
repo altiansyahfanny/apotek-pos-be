@@ -11,7 +11,7 @@ module.exports = {
 					email: 'email.supplier1@gmail.com',
 					phone_number: '6289178664192',
 					address: 'Jakarta',
-					status: 1,
+					status: true,
 				},
 				{
 					id: 2,
@@ -19,7 +19,7 @@ module.exports = {
 					email: 'email.supplier2@gmail.com',
 					phone_number: '6281388129857',
 					address: 'Banjarmasin',
-					status: 1,
+					status: true,
 				},
 			],
 			{}
