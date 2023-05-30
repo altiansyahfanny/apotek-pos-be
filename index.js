@@ -5,6 +5,8 @@ const logger = require('morgan');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 
+delete require.cache[require.resolve('sequelize')];
+
 const app = express();
 
 app.use(cors(corsOptions));
