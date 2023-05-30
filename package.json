@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon bin/www",
+		"start": "node bin/www",
 		"migrate": "npx sequelize db:migrate",
 		"migrate:undo": "npx sequelize db:migrate:undo:all",
 		"seed": "npx sequelize db:seed:all",
