@@ -11,7 +11,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
-app.use('/v1/', require('./routes/root'));
+app.use('/', require('./routes/root'));
 app.use('/v1/product', routes.product);
 app.use('/v1/product-unit', routes.productUnit);
 app.use('/v1/product-category', routes.productCategory);
