@@ -9,7 +9,7 @@
 		"timezone": "+07:00",
 		"port": 5432
 	},
-	"production": {
+	"development": {
 		"username": "root",
 		"password": null,
 		"database": "api_apotek_pos",
@@ -18,7 +18,7 @@
 		"logging": true,
 		"timezone": "+07:00"
 	},
-	"development": {
+	"production": {
 		"username": "uccacztl7wwkxcbd",
 		"password": "5oIliuXuocuNdNMpzT2l",
 		"database": "bbjartgefpiaqw5fejif",

@@ -1,34 +1,40 @@
 {
-	"name": "apotek_pos_be",
-	"version": "1.0.0",
-	"description": "BE Apotek POS",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node bin/www",
-		"migrate": "npx sequelize db:migrate",
-		"migrate:undo": "npx sequelize db:migrate:undo:all",
-		"seed": "npx sequelize db:seed:all",
-		"seed:undo": "npx sequelize db:seed:undo:all",
-		"migrate:fresh": "npm run migrate:undo && npm run migrate",
-		"seed:fresh": "npm run seed:undo && npm run seed "
-	},
-	"author": "Altiansyah Fanny",
-	"license": "ISC",
-	"engines": {
-		"node": "14.x"
-	},
-	"dependencies": {
-		"body-parser": "^1.20.2",
-		"cors": "^2.8.5",
-		"express": "^4.18.2",
-		"express-validator": "^7.0.1",
-		"morgan": "^1.10.0",
-		"mysql2": "^3.3.3",
-		"nodemon": "^2.0.22",
-		"pg": "^8.11.0",
-		"pg-hstore": "^2.3.4",
-		"sequelize": "^6.31.1",
-		"sequelize-cli": "^6.6.0"
-	}
+  "name": "apotek_pos_be",
+  "version": "1.0.0",
+  "description": "BE Apotek POS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/www",
+    "migrate": "npx sequelize db:migrate",
+    "migrate:undo": "npx sequelize db:migrate:undo:all",
+    "seed": "npx sequelize db:seed:all",
+    "seed:undo": "npx sequelize db:seed:undo:all",
+    "migrate:fresh": "npm run migrate:undo && npm run migrate",
+    "migrate:fresh:seed": "npm run migrate:undo && npm run migrate && npm run seed",
+    "seed:fresh": "npm run seed:undo && npm run seed"
+  },
+  "author": "Altiansyah Fanny",
+  "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  }
 }

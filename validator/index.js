@@ -1,1 +1,0 @@
-const invoiceValidator = require('./invoiceValidator');
